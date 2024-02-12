@@ -1,5 +1,5 @@
 <template>
-  <main class="bg-red-500 h-screen relative">
+  <main class="bg-red-500 min-h-screen h-fit relative">
     <div class="absolute left-5 top-2">
       <p class="text-2xl">🥰🥰💓❤</p>
     </div>
@@ -22,13 +22,6 @@
         </button>
       </div>
       <div class="flex gap-3 md:w-3/5 w-full px-2 md:px-0">
-        <div class="w-2/4 h-full">
-          <img
-            src="../assets/we.jpg"
-            alt=""
-            class="object-cover w-full h-full rounded-lg"
-          />
-        </div>
         <div
           class="flex flex-col gap-3 w-2/4 h-full rounded-lg overflow-hidden"
         >
@@ -41,6 +34,13 @@
             src="../assets/we2.jpg"
             alt=""
             class="object-cover h-1/2 w-full rounded-lg"
+          />
+        </div>
+        <div class="w-2/4 h-full">
+          <img
+            src="../assets/we.jpg"
+            alt=""
+            class="object-cover w-full h-full rounded-lg"
           />
         </div>
       </div>
